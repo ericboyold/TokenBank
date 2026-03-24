@@ -523,10 +523,6 @@ export const TOKEN_BANK_PERMIT2_ABI = [
 // Delegate ABI
 export const DELEGATE_ABI = [
   {
-    "type": "receive",
-    "stateMutability": "payable"
-  },
-  {
     "type": "function",
     "name": "depositToBank",
     "inputs": [
@@ -688,42 +684,5 @@ export const DELEGATE_ABI = [
       }
     ],
     "anonymous": false
-  },
-  {
-    "type": "error",
-    "name": "BatchExecutionFailed",
-    "inputs": [
-      {
-        "name": "index",
-        "type": "uint256",
-        "internalType": "uint256"
-      },
-      {
-        "name": "reason",
-        "type": "bytes",
-        "internalType": "bytes"
-      }
-    ]
-  },
-  {
-    "type": "error",
-    "name": "EmptyBatch",
-    "inputs": []
-  },
-  {
-    "type": "error",
-    "name": "ReentrancyGuardReentrantCall",
-    "inputs": []
-  },
-  {
-    "type": "error",
-    "name": "SafeERC20FailedOperation",
-    "inputs": [
-      {
-        "name": "token",
-        "type": "address",
-        "internalType": "address"
-      }
-    ]
   }
 ] as const;

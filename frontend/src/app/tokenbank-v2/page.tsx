@@ -150,13 +150,13 @@ export default function TokenBankV2() {
         <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-sm">
           <h3 className="text-sm text-gray-500 mb-1">Wallet Token Balance</h3>
           <p className="text-2xl font-semibold text-gray-900">
-            {tokenBalance ? formatEther(tokenBalance as bigint) : '0'} {tokenSymbol || 'MTK'}
+            {tokenBalance ? formatEther(tokenBalance as bigint) : '0'} {tokenSymbol || 'ETK'}
           </p>
         </div>
         <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-sm">
           <h3 className="text-sm text-gray-500 mb-1">Bank Deposit Balance</h3>
           <p className="text-2xl font-semibold text-gray-900">
-            {bankBalance ? formatEther(bankBalance as bigint) : '0'} {tokenSymbol || 'MTK'}
+            {bankBalance ? formatEther(bankBalance as bigint) : '0'} {tokenSymbol || 'ETK'}
           </p>
         </div>
       </div>
@@ -281,7 +281,7 @@ export default function TokenBankV2() {
             />
           </div>
           <div className="text-sm text-gray-600">
-            Current Allowance: {allowance ? formatEther(allowance as bigint) : '0'} {tokenSymbol || 'MTK'}
+            Current Allowance: {allowance ? formatEther(allowance as bigint) : '0'} {tokenSymbol || 'ETK'}
           </div>
           <div className="flex gap-4">
             <button

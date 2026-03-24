@@ -356,7 +356,7 @@ export default function TokenBankPrimit() {
             />
           </div>
           <div className="text-sm text-gray-600">
-            Current Allowance: {allowance ? formatEther(allowance as bigint) : '0'} {tokenSymbol || 'MTKP'}
+            Current Allowance: {allowance ? formatEther(allowance as bigint) : '0'} {tokenSymbol || 'ETKP'}
           </div>
           <div className="flex gap-4">
             <button
