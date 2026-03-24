@@ -16,6 +16,11 @@ const features = [
     description: 'Token banking with EIP-712 typed data signatures for gasless approve.',
     href: '/tokenbank-permit',
   },
+  {
+    title: 'TokenBank Permit2',
+    description: 'Integration with Uniswap Permit2 for universal token approvals.',
+    href: '/tokenbank-permit2',
+  },
 ];
 
 export default function Home() {
