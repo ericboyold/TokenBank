@@ -21,6 +21,11 @@ const features = [
     description: 'Integration with Uniswap Permit2 for universal token approvals.',
     href: '/tokenbank-permit2',
   },
+  {
+    title: 'TokenBank(7702)',
+    description: 'Leveraging EIP-7702 for account abstraction capabilities.',
+    href: '/tokenbank-7702',
+  },
 ];
 
 export default function Home() {

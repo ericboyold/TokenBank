@@ -25,5 +25,10 @@ export const CONTRACTS_PERMIT2 = {
   TokenBankPermit2: '0xeAf870A41557D530CA9b903CCdD0C1C1aF4F292C',
 } as const;
 
+// Delegate Contracts
+export const CONTRACTS_DELEGATE = {
+  Delegate: '0xB8d4D1bf8a41d4Ee29e4BfB34468cbCE524af854',
+} as const;
+
 // 默认导出V1（向后兼容）
 export const CONTRACTS = CONTRACTS_V1;
