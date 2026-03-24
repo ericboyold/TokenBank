@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# logs and temp files
+*.log
+tmp/
+temp/
+
+# environment files
+.env
+.env.*
+!.env.example
+
+# vscode
+.vscode/    
