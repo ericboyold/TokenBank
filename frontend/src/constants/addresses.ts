@@ -11,5 +11,12 @@ export const CONTRACTS_V2 = {
   EricTokenV2: '0x76efB80cE493E8611a60231f1DFF35b9dAceD4EC',
   TokenBankV2: '0x63F39444b67151A28d0dD57B70DD3ce412F19D18',
 } as const;
+
+// Permit Contracts
+export const CONTRACTS_PERMIT = {
+  EricTokenPermit: '0xA8Fc93ED0cc3447F0Da76F498d35740BbF7D9dB7',
+  TokenBankPermit: '0xcd27F3A1eF04F8B0EA30f4B5Eaee2E7Cfc56a5d8',
+} as const;
+
 // 默认导出V1（向后兼容）
 export const CONTRACTS = CONTRACTS_V1;

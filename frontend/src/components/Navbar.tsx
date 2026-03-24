@@ -8,6 +8,7 @@ const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/tokenbank-v1', label: 'TokenBank V1' },
   { href: '/tokenbank-v2', label: 'TokenBank V2' },
+  { href: '/tokenbank-permit', label: 'TokenBank Permit' },
 ];
 
 export function Navbar() {

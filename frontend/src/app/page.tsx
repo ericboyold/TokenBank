@@ -11,6 +11,11 @@ const features = [
     description: 'Enhanced version with additional features and optimizations.',
     href: '/tokenbank-v2',
   },
+  {
+    title: 'TokenBank Permit',
+    description: 'Token banking with EIP-712 typed data signatures for gasless approve.',
+    href: '/tokenbank-permit',
+  },
 ];
 
 export default function Home() {
